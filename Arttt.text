@@ -1,0 +1,64 @@
+GIT ANG GITHUB.
+ Git is a disributed version control system (CVS) that helps developers track their data bases, colaborate with others and manage multiple versions of a project. It is used to backup codes.
+ 
+ Unlike other version control system, Git is decentralized, which means you do not need a central server, instead every developer has a full copy of the repository on their machine.
+ 
+ Repository which can be seen as a digital file and cabinet that stores all the files and all the changes that have been made. It is like a time machine for code.
+ 
+ Key Features of GIT
+ 
+ . Distributed system; it is decentralized and there is no need for a central sever.
+ . Version tracking; keeps track of changes made on the code.
+ . Collaboration; multiple developers can work on the same project.
+ . Branching; if you want to create a seperate branch to work on outside of the main code, or if you  want to fix a bug or create another feature.
+ . Merging.
+ . Remote repositories.
+ . Extensive tooling.
+ . Staging area.
+ . Speed.
+ . Open source and free(no liscense needed).
+ 
+ 
+ WHAT IS GITHUB?
+ Github is a web based platform used for version control and colaboration. It hosts repositories provides graphical interface within a browser to manage your code and do other things.
+ In addition to hosting things Github offer colaboration features like bug tracking, feature requests and task management.
+ 
+ Configuring Git
+ 
+ You need to run a couple initial configuration commands after installment with your name and email address.
+ 
+``git config --global user.name "your name"``
+``git config --global user.email "your email"``
+
+GIT WORKFLOW
+
+Working directory
+
+Staging area
+
+Local repository
+
+Remote repository.
+
+some git commands
+
+``git init``
+
+Initialize a new repository in a project folder. This creates a new hidden folder called ``.git``.
+
+
+``git add`` command adds files to the staging area.
+
+
+``git commit`` command is used when you are ready to commit a file to your local repository. 
+
+
+``git push`` command is used when you are ready to push to the remote repository such as Github, Gitlab after configuring the remote repository to be used.
+
+
+``git clone`` command is used to clone an entire remote repository to your local machine.
+
+Branching and merging allows you to work on a new feature or bug fixing without affecting the main code base. When you are ready you can merge the new code into the main branch .
+
+
+ 
